@@ -10,11 +10,14 @@ const App = () => {
   return (
     <div className="App">
       <h1>FoodCard | Pagination</h1>
-      {
-        foodData.map((item, index) => {
-          return <Food key={index} {...item} />
-        })
-      }
+      <div className="container">
+        {
+          foodData.map((item, index) => {
+            return <Food key={index} {...item} />
+          })
+        }
+      </div>
+
     </div>
   );
 }
