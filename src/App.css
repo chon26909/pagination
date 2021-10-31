@@ -1,5 +1,8 @@
+body {
+   min-height: 100vh;
+   background-color: black;
+}
 .App {
-  background-color: black;
   padding: 20px 0;
 }
 .container {
@@ -33,4 +36,22 @@ h1 {
   font-size: 2rem;
   text-align: center;
   color: white;
+}
+
+.pagination-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+.pagination-btn {
+  width: 40px;
+  height: 40px;
+  margin:  0 5px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+.pagination-btn-active {
+  background-color: coral !important;
 }
